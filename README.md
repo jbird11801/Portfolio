@@ -31,8 +31,13 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 
 ## Credits
 
-Used to make the read me file https://courses.bootcampspot.com/courses/3906/pages/
-3-dot-5-3-create-a-professional-project-readme?module_item_id=885925
+Used to make the read me file https://courses.bootcampspot.com/courses/3906/pages/3-dot-5-3-create-a-professional-project-readme?module_item_id=885925
+
+used to make the phone link work on a phone. https://css-tricks.com/the-current-state-of-telephone-links/
+
+used to make the blur effect https://stackoverflow.com/questions/43938860/how-to-tint-image-with-css
+
+used to make links open new tabs https://www.freecodecamp.org/news/how-to-use-html-to-open-link-in-new-tab/
 
 
 List your collaborators, if any, with links to their GitHub profiles.
