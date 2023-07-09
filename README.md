@@ -30,7 +30,10 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 ![alt text](assets/images/screenshot.png)
 
 ## Credits
-https://courses.bootcampspot.com/courses/3906/pages/3-dot-5-3-create-a-professional-project-readme?module_item_id=885925
+
+Used to make the read me file https://courses.bootcampspot.com/courses/3906/pages/
+3-dot-5-3-create-a-professional-project-readme?module_item_id=885925
+
 
 List your collaborators, if any, with links to their GitHub profiles.
 
