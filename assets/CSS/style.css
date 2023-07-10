@@ -33,8 +33,6 @@ header{
 
     list-style: none;
 
-    background-color: orangered;
-
     color: black;
 
     align-items: center;
@@ -55,19 +53,23 @@ header section{
 
 header section h1{
 
-    font-size: 300%;
+    padding-left: 20px;
+    
+    font-size: 400%;
 
 }
 
 header section img {
 
-    height: 100px;
+    height: 150px;
 
     width: auto;
 
 }
 
 header ul {
+
+    font-size: 300%;
 
     display: flex;
 
@@ -107,11 +109,11 @@ nav a {
   }
 
 .banner{
-    height: 100px;
+    height: 150px;
 
     width: 100%;
 
-    background-image: url("../images/Placeholder.jpg");
+    background-image: url("../images/Banner.jpg");
 
     background-size: cover;
 
