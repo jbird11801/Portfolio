@@ -1,3 +1,5 @@
+
+
 *{
 
     font-size: 16px;
@@ -157,17 +159,23 @@ summary section article{
 
 }
 
-summary section article img {
+summary section article div a {
 
-    border: solid black;
+    position: relative;
+
+    background-image: url("../images/Placeholder.jpg");
+
+    background-size:cover;
+
+    background-position: center;
 
     filter: grayscale(50%)blur(2px);
 
-    padding: 10px;
+    border: solid black 5px;
 
 }
 
-summary section article img:hover {
+summary section article div a:hover {
 
     filter: grayscale(0%)blur(0px);
 
@@ -185,19 +193,126 @@ summary section article div{
 
 }
 
-.main_img{
+.main_button{
 
     width: 100%;
 
+    height: 700px;
+
+}
+.main_button h1{
+
+    border: solid black;
+
+    background-image: url("../images/Banner.jpg");
+
+    font-size: 350%;
+
+    position: absolute;
+
+    left: 0px;
+
+    bottom: 10px;
+
 }
 
-.sub_imgs{
+
+.sub_button_1{
 
     width: 50%;
 
+    height: 300px;
+
+}
+
+.sub_button_1 h1{
+
+    border: solid black;
+
+    background-image: url("../images/Banner.jpg");
+
+    font-size: 150%;
+
+    position: absolute;
+
+    left: 0px;
+
+    bottom: 10px;
+
+}
+
+.sub_button_2{
+
+    width: 50%;
+
+    height: 300px;
+
 }
 
 
+.sub_button_2 h1{
+
+    border: solid black;
+
+    background-image: url("../images/Banner.jpg");
+
+    font-size: 150%;
+
+    position: absolute;
+
+    left: 0px;
+
+    bottom: 10px;
+
+}
+
+.sub_button_3{
+
+    width: 50%;
+
+    height: 300px;
+
+}
+
+.sub_button_3 h1{
+
+    border: solid black;
+
+    background-image: url("../images/Banner.jpg");
+
+    font-size: 150%;
+
+    position: absolute;
+
+    left: 0px;
+
+    bottom: 10px;
+
+}
+
+.sub_button_4{
+
+    width: 50%;
+
+    height: 300px;
+
+}
+
+.sub_button_4 h1{
+
+    border: solid black;
+
+    background-image: url("../images/Banner.jpg");
+
+    font-size: 150%;
+
+    position: absolute;
+
+    left: 0px;
+
+    bottom: 10px;
+
+}
 
 summary section article ul{
 
@@ -224,8 +339,4 @@ summary section article a {
 
   /*
 
-  ask about media for phone
-
-  ask about imgs namely to cover the placeholder
-
-  ask about cool subject her
+ need to implement media
