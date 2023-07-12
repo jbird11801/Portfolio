@@ -1,4 +1,10 @@
+/* universal selector 
 
+font size  sets font to 16px
+
+font family sets the font to the first one the search engine recognises 
+
+*/
 
 *{
 
@@ -9,12 +15,25 @@
 
 }
 
+/* universal selector 
+
+    background-color sets the color of all elemnts in the body to aliceblue
+
+*/
+
 body{
 
     background-color: aliceblue;
 
 }
 
+/* element selector 
+
+    h1 and h2 are similar
+
+    font-size sets the size of the font
+
+*/
 
 h1{
 
@@ -26,6 +45,12 @@ h2{
 
     font-size: 200%;
 }
+
+/* element selector 
+
+    selects the header element and stylises it and the content in it
+
+*/
 
 header{
 
@@ -41,6 +66,12 @@ header{
 
 }
 
+/* element selector 
+
+    selects the section in the header element and then stylises it and the content in it
+
+*/
+
 header section{
 
     align-items: center;
@@ -53,6 +84,12 @@ header section{
 
 }
 
+/* element selector 
+
+    selects  the h1 element in the section in the header element and then stylises it
+
+*/
+
 header section h1{
 
     padding-left: 20px;
@@ -61,6 +98,12 @@ header section h1{
 
 }
 
+/* element selector 
+
+    selects the h1 element in the section in the header element and then stylises it
+
+*/
+
 header section img {
 
     height: 150px;
@@ -68,6 +111,12 @@ header section img {
     width: auto;
 
 }
+
+/* element selector 
+
+    selects the ul element in the header element and then stylises it
+
+*/
 
 header ul {
 
@@ -81,6 +130,12 @@ header ul {
 
 }
 
+/* element selector 
+
+    selects the a element in the nav parent and then stylises it
+
+*/
+
 nav a {
 
     color: black;
@@ -91,6 +146,12 @@ nav a {
 
   }
 
+  /* element selector 
+
+    selects the div section in the body parent and then stylises it
+
+*/
+
   body div {
 
     position: relative;
@@ -98,6 +159,12 @@ nav a {
     margin-bottom: 25px;
 
   }
+
+  /* element selector 
+
+    selects h2 element in the div section in the body parent and then stylises it
+
+*/
 
 
   body div h2 {
@@ -109,6 +176,12 @@ nav a {
     bottom: 20px;
 
   }
+
+   /* class selector 
+
+    anything that has the banner class is styleised
+
+*/
 
 .banner{
     height: 150px;
@@ -123,6 +196,13 @@ nav a {
 
 }
 
+   /* element selector 
+
+    anything that is in the summery section is styleised
+
+*/
+
+
 summary {
 
     margin: 50px;
@@ -135,6 +215,12 @@ summary {
 
 }
 
+  /* element selector 
+
+    anything in the section that is in the summery section is styleised
+
+*/
+
 summary section {
 
     display: flex;
@@ -142,6 +228,12 @@ summary section {
     padding: 80px;
 
 }
+
+  /* element selector 
+
+    the h1 element in the section that is in the summery section is styleised
+
+*/
 
 summary section h1{
 
@@ -151,6 +243,13 @@ summary section h1{
 
 }
 
+
+  /* element selector 
+
+    anything in the article section in the section that is in the summery section is styleised
+
+*/
+
 summary section article{
 
     padding-left: 10px;
@@ -159,21 +258,27 @@ summary section article{
 
 }
 
+  /* element selector 
+
+    the a element in the div in the article section in the section that is in the summery section is styleised
+
+*/
+
 summary section article div a {
 
     position: relative;
-
-    background-image: url("../images/Placeholder.jpg");
-
-    background-size:cover;
-
-    background-position: center;
 
     filter: grayscale(50%)blur(2px);
 
     border: solid black 5px;
 
 }
+
+  /* element selector 
+
+    the a element when the curser is hoveing over it in the div in the article section in the section that is in the summery section is styleised
+
+*/
 
 summary section article div a:hover {
 
@@ -182,6 +287,12 @@ summary section article div a:hover {
     transition: .4s;
 
 }
+
+  /* element selector 
+
+    anything in the div in the article section in the section that is in the summery section is styleised
+
+*/
 
 summary section article div{
 
@@ -193,13 +304,32 @@ summary section article div{
 
 }
 
+ /* class selector 
+
+    anything with the main button class is styleised 
+
+*/
+
 .main_button{
+    
+    background-image: url("../images/Placeholder.jpg");
+
+    background-size:cover;
+
+    background-position: center;
 
     width: 100%;
 
     height: 700px;
 
 }
+
+ /* element selector 
+
+    the h1 element in a section with the main button class is styleised 
+
+*/
+
 .main_button h1{
 
     border: solid black;
@@ -216,14 +346,32 @@ summary section article div{
 
 }
 
+ /* class selector 
+
+    anything with the sub button 1 class is styleised 
+
+*/
+
 
 .sub_button_1{
+    
+    background-image: url("../images/Placeholder.jpg");
+
+    background-size:cover;
+
+    background-position: center;
 
     width: 50%;
 
     height: 300px;
 
 }
+
+ /* element selector 
+
+    the h1 element in a section with the sub button 1 class is styleised 
+
+*/
 
 .sub_button_1 h1{
 
@@ -241,7 +389,20 @@ summary section article div{
 
 }
 
+ /* class selector 
+
+    anything with the sub button 2 class is styleised 
+
+*/
+
+
 .sub_button_2{
+    
+    background-image: url("../images/Placeholder.jpg");
+
+    background-size:cover;
+
+    background-position: center;
 
     width: 50%;
 
@@ -249,6 +410,11 @@ summary section article div{
 
 }
 
+ /* element selector 
+
+    the h1 element in a section with the sub button 2 class is styleised 
+
+*/
 
 .sub_button_2 h1{
 
@@ -266,13 +432,32 @@ summary section article div{
 
 }
 
+ /* class selector 
+
+    anything with the sub button 3 class is styleised 
+
+*/
+
+
 .sub_button_3{
+    
+    background-image: url("../images/Placeholder.jpg");
+
+    background-size:cover;
+
+    background-position: center;
 
     width: 50%;
 
     height: 300px;
 
 }
+
+ /* element selector 
+
+    the h1 element in a section with the sub button 3 class is styleised 
+
+*/
 
 .sub_button_3 h1{
 
@@ -290,13 +475,32 @@ summary section article div{
 
 }
 
+ /* class selector 
+
+    anything with the sub button 4 class is styleised 
+
+*/
+
+
 .sub_button_4{
+    
+    background-image: url("../images/Placeholder.jpg");
+
+    background-size:cover;
+
+    background-position: center;
 
     width: 50%;
 
     height: 300px;
 
 }
+
+ /* element selector 
+
+    the h1 element in a section with the sub button 4 class is styleised 
+
+*/
 
 .sub_button_4 h1{
 
@@ -314,6 +518,13 @@ summary section article div{
 
 }
 
+ /* element selector 
+
+    the ul section in the article section in the section of the summery is styleised
+
+*/
+
+
 summary section article ul{
 
     display: flex;
@@ -323,6 +534,13 @@ summary section article ul{
     min-width: 300px;
 
 }
+
+ /* element selector 
+
+    the a element in the article section in the section of the summery is styleised
+
+*/
+
 summary section article a {
 
     color: black;
@@ -335,8 +553,317 @@ summary section article a {
 
   }
 
+   /* media screen is used to change the style of the web page after the max px is less than 1225*/
 
+  @media screen and (max-width: 1225px) {
 
-  /*
+   /*Element selector 
+   all p elements are stleised
+   */
 
- need to implement media
+    p{
+        font-size: 150%;
+    }
+    
+    /*Element selector 
+   the h1 element in the section of the summary is styleised 
+   */
+
+    summary section h1{
+
+        flex: unset;
+
+        border-right: unset;
+
+        width: 100%;
+
+        text-align: center;
+
+        border-bottom:  solid black;
+
+    }
+
+    /*Element selector 
+   anything in the article section in section of the summary is styleised 
+   */
+
+    summary section article{
+
+        padding-left: unset;
+    
+        flex: unset;
+
+        padding-top: 10px;
+
+        
+
+    
+    }
+   
+    /*Element selector 
+   anythinging section of the summary is styleised 
+   */
+
+    summary section {
+
+        flex-direction: column;
+
+        align-items: center;
+    
+    } 
+
+    /*Element selector 
+   the a element in the div section of the article selection of section of the summary is styleised 
+   */
+
+    summary section article div a {
+
+        position: relative;
+    
+        background-size:cover;
+    
+        background-position: center;
+    
+        filter: grayscale(50%)blur(2px);
+    
+        border: solid black 5px;
+    
+    }
+
+    /*Element selector 
+   the a element when hovered over in the div section of the article selection of section of the summary is styleised 
+   */
+
+    summary section article div a:hover {
+    
+        filter: grayscale(0%)blur(0px);
+    
+        transition: .4s;
+    
+    }
+
+    /*Element selector 
+   anything in the div section of the article selection of section of the summary is styleised 
+   */
+
+    summary section article div{
+
+        align-items: center;
+    
+        display: flex;
+    
+        flex-direction: row;
+
+    
+    }
+    
+     /* class selector 
+
+    anything with the main button class is styleised 
+
+    */
+
+    .main_button{
+        
+        width: 80vw;
+
+        height: 700px;
+    
+    }
+    
+    /* element selector 
+
+    the h1 element in a section with the main button class is styleised 
+
+    */
+
+    .main_button h1{
+    
+        border: solid black;
+    
+        background-image: url("../images/Banner.jpg");
+    
+        font-size: 350%;
+    
+        position: absolute;
+    
+        left: 0px;
+    
+        bottom: 10px;
+    
+    }
+    
+     /* class selector 
+
+    anything with the sub button 1 class is styleised 
+
+    */
+
+    .sub_button_1{
+
+        width: 50%;
+    
+        height: 300px;
+    
+    }
+
+    /* element selector 
+
+    the h1 element in a section with the sub button 1 class is styleised 
+
+    */
+    
+    .sub_button_1 h1{
+    
+        border: solid black;
+    
+        background-image: url("../images/Banner.jpg");
+    
+        font-size: 150%;
+    
+        position: absolute;
+    
+        left: 0px;
+    
+        bottom: 10px;
+    
+    }
+
+     /* class selector 
+
+    anything with the sub button 2 class is styleised 
+
+    */
+    
+    .sub_button_2{
+    
+        width: 50%;
+    
+        height: 300px;
+    
+    }
+    
+     /* element selector 
+
+    the h1 element in a section with the sub button 2 class is styleised 
+
+    */
+    
+    .sub_button_2 h1{
+    
+        border: solid black;
+    
+        background-image: url("../images/Banner.jpg");
+    
+        font-size: 150%;
+    
+        position: absolute;
+    
+        left: 0px;
+    
+        bottom: 10px;
+    
+    }
+
+     /* class selector 
+
+    anything with the sub button 3 class is styleised 
+
+    */
+    
+    .sub_button_3{
+    
+        width: 50%;
+    
+        height: 300px;
+    
+    }
+
+     /* element selector 
+
+    the h1 element in a section with the sub button 3 class is styleised 
+
+    */
+    
+    .sub_button_3 h1{
+    
+        border: solid black;
+    
+        background-image: url("../images/Banner.jpg");
+    
+        font-size: 150%;
+    
+        position: absolute;
+    
+        left: 0px;
+    
+        bottom: 10px;
+    
+    }
+
+     /* class selector 
+
+    anything with the sub button 4 class is styleised 
+
+    */
+    
+    .sub_button_4{
+    
+        width: 50%;
+    
+        height: 300px;
+    
+    }
+    
+    /* element selector 
+
+    the h1 element in a section with the sub button 4 class is styleised 
+
+    */
+
+    .sub_button_4 h1{
+    
+        border: solid black;
+    
+        background-image: url("../images/Banner.jpg");
+    
+        font-size: 150%;
+    
+        position: absolute;
+    
+        left: 0px;
+    
+        bottom: 10px;
+    
+    }
+
+    /* element selector 
+
+    the ul section in the article section in the section of the summery is styleised
+
+    */
+
+    summary section article ul {
+
+        display: flex; 
+        
+        align-items: center;
+
+        flex-direction: column;
+
+       
+    }
+
+     /* element selector 
+
+    the li element the ul section in the article section in the section of the summery is styleised
+
+    */
+
+    summary section article ul li {
+
+       padding: 10px;
+
+    }
+
+ }
