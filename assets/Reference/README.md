@@ -80,7 +80,7 @@ This Challenge is graded based on the following criteria:
 
 * Application loads with no errors. x
 
-* Application GitHub URL submitted. 
+* Application GitHub URL submitted. x
 
 * GitHub repository contains application code. x
 
@@ -94,7 +94,7 @@ This Challenge is graded based on the following criteria:
 
 * Repository follows best practices for file structure and naming conventions. x
 
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc. 
+* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc. x
 
 * Repository contains multiple descriptive commit messages. x
 
