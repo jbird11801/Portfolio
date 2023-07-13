@@ -3,7 +3,7 @@
 This is a digital portfolio containing links on how to contact me, my past work, a short about me section, and a link to my resume. The reson I made it is so in the future I can have use it to applie for jobs! 
 I learned the importance of properly saving my work as i alost lost my style.css file.
 
-Link to live site : https://jbird11801.github.io/Challenge_2/
+Link to live site : https://jbird11801.github.io/Portfolio/
 
 ## Usage
 
